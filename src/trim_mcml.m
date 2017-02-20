@@ -19,9 +19,9 @@ global PLOTON PRINTON
 
 PLOTON = 1; PRINTON = 0;
 
-for i = 0:1        
+for i = 0:399    
     disp(strcat('output',num2str(i),'.mco'))
-    getmcml(strcat('output',num2str(i),'.mco'))
+    getmcml(strcat('./mco-general/output',num2str(i),'.mco'))
 end
 
 %getmcml('output0.mco')
